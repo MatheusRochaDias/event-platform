@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-zinc-900 text-zinc-100
+}
+
+/* // CMS = Content Management System
+
+//Wordpress: Traz tanto o painel de Admin quanto a parte visual do front-end(através dos temas)
+//Headless CMS(GraphCms): Traz apenas o painel de Admin(dados trazidos através de uma API Rest ou GraphQL)
+
+//React que consome API do CMS
+
+//GraphQL
+
+//query / mutation
+
+//query: Buscar dados
+
+//mutation: criar, alterar ou deletar dados */
